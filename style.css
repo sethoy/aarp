@@ -570,13 +570,13 @@ details[open] .icon::after {
 }
 /* 1. Establish structural positioning on the body element */
 body {
-    position: relative;
-    min-height: 100vh;
+    position: relative !important;
+    min-height: 100vh !important;
 }
 
 /* 2. Style the transparent click overlay block */
 .global-page-overlay {
-    position: absolute;
+    position: absolute !important;
     top: 0;
     left: 0;
     width: 100%;
